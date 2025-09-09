@@ -13,7 +13,7 @@ import java.time.LocalDate;
 @Builder
 @Table(name = "tasks")
 @Entity
-public class tasks {
+public class Tasks {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
